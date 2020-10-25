@@ -103,16 +103,16 @@ $desktop: 1400px;
       }
       &__2 {
          background-image: image-set(
-            url("/img/img-big__02.png") 1x,
-            url("/img/img-big__02@2x.png") 2x,
-            url("/img/img-big__02@3x.png") 3x
+            url("../img/img-big__02.png") 1x,
+            url("../img/img-big__02@2x.png") 2x,
+            url("../img/img-big__02@3x.png") 3x
          );
          &:after {
             @include img-logo;
             background-image: image-set(
-               url("/img/img-big-logo__02.png") 1x,
-               url("/img/img-big-logo__02@2x.png") 2x,
-               url("/img/img-big-logo__02@3x.png") 3x
+               url("../img/img-big-logo__02.png") 1x,
+               url("../img/img-big-logo__02@2x.png") 2x,
+               url("../img/img-big-logo__02@3x.png") 3x
             );
             width: 177px;
             height: 152px;
@@ -122,16 +122,16 @@ $desktop: 1400px;
    &-medium {
       &__1 {
          background-image: image-set(
-            url("/img/img-medium__01.png") 1x,
-            url("/img/img-medium__01@2x.png") 2x,
-            url("/img/img-medium__01@3x.png") 3x
+            url("../img/img-medium__01.png") 1x,
+            url("../img/img-medium__01@2x.png") 2x,
+            url("../img/img-medium__01@3x.png") 3x
          );
          &:after {
             @include img-logo;
             background-image: image-set(
-               url("/img/img-medium-logo__01.png") 1x,
-               url("/img/img-medium-logo__01@2x.png") 2x,
-               url("/img/img-medium-logo__01@3x.png") 3x
+               url("../img/img-medium-logo__01.png") 1x,
+               url("../img/img-medium-logo__01@2x.png") 2x,
+               url("../img/img-medium-logo__01@3x.png") 3x
             );
             width: 208px;
             height: 67px;
@@ -139,32 +139,32 @@ $desktop: 1400px;
       }
       &__2 {
          background-image: image-set(
-            url("/img/img-medium__02.png") 1x,
-            url("/img/img-medium__02@2x.png") 2x,
-            url("/img/img-medium__02@3x.png") 3x
+            url("../img/img-medium__02.png") 1x,
+            url("../img/img-medium__02@2x.png") 2x,
+            url("../img/img-medium__02@3x.png") 3x
          );
       }
    }
    &-small {
       &__1 {
          background-image: image-set(
-            url("/img/img-small__01.png") 1x,
-            url("/img/img-small__01@2x.png") 2x,
-            url("/img/img-small__01@3x.png") 3x
+            url("../img/img-small__01.png") 1x,
+            url("../img/img-small__01@2x.png") 2x,
+            url("../img/img-small__01@3x.png") 3x
          );
       }
       &__2 {
          background-image: image-set(
-            url("/img/img-small__02.png") 1x,
-            url("/img/img-small__02@2x.png") 2x,
-            url("/img/img-small__02@3x.png") 3x
+            url("../img/img-small__02.png") 1x,
+            url("../img/img-small__02@2x.png") 2x,
+            url("../img/img-small__02@3x.png") 3x
          );
       }
       &__3 {
          background-image: image-set(
-            url("/img/img-small__03.png") 1x,
-            url("/img/img-small__03@2x.png") 2x,
-            url("/img/img-small__03@3x.png") 3x
+            url("../img/img-small__03.png") 1x,
+            url("../img/img-small__03@2x.png") 2x,
+            url("../img/img-small__03@3x.png") 3x
          );
       }
    }

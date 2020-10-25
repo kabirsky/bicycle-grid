@@ -221,8 +221,8 @@ input {
 }
 
 .img-big__2 {
-  background-image: -webkit-image-set(url("/img/img-big__02.png") 1x, url("/img/img-big__02@2x.png") 2x, url("/img/img-big__02@3x.png") 3x);
-  background-image: image-set(url("/img/img-big__02.png") 1x, url("/img/img-big__02@2x.png") 2x, url("/img/img-big__02@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-big__02.png") 1x, url("../img/img-big__02@2x.png") 2x, url("../img/img-big__02@3x.png") 3x);
+  background-image: image-set(url("../img/img-big__02.png") 1x, url("../img/img-big__02@2x.png") 2x, url("../img/img-big__02@3x.png") 3x);
 }
 
 .img-big__2:after {
@@ -233,15 +233,15 @@ input {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: -webkit-image-set(url("/img/img-big-logo__02.png") 1x, url("/img/img-big-logo__02@2x.png") 2x, url("/img/img-big-logo__02@3x.png") 3x);
-  background-image: image-set(url("/img/img-big-logo__02.png") 1x, url("/img/img-big-logo__02@2x.png") 2x, url("/img/img-big-logo__02@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-big-logo__02.png") 1x, url("../img/img-big-logo__02@2x.png") 2x, url("../img/img-big-logo__02@3x.png") 3x);
+  background-image: image-set(url("../img/img-big-logo__02.png") 1x, url("../img/img-big-logo__02@2x.png") 2x, url("../img/img-big-logo__02@3x.png") 3x);
   width: 177px;
   height: 152px;
 }
 
 .img-medium__1 {
-  background-image: -webkit-image-set(url("/img/img-medium__01.png") 1x, url("/img/img-medium__01@2x.png") 2x, url("/img/img-medium__01@3x.png") 3x);
-  background-image: image-set(url("/img/img-medium__01.png") 1x, url("/img/img-medium__01@2x.png") 2x, url("/img/img-medium__01@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-medium__01.png") 1x, url("../img/img-medium__01@2x.png") 2x, url("../img/img-medium__01@3x.png") 3x);
+  background-image: image-set(url("../img/img-medium__01.png") 1x, url("../img/img-medium__01@2x.png") 2x, url("../img/img-medium__01@3x.png") 3x);
 }
 
 .img-medium__1:after {
@@ -252,30 +252,30 @@ input {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: -webkit-image-set(url("/img/img-medium-logo__01.png") 1x, url("/img/img-medium-logo__01@2x.png") 2x, url("/img/img-medium-logo__01@3x.png") 3x);
-  background-image: image-set(url("/img/img-medium-logo__01.png") 1x, url("/img/img-medium-logo__01@2x.png") 2x, url("/img/img-medium-logo__01@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-medium-logo__01.png") 1x, url("../img/img-medium-logo__01@2x.png") 2x, url("../img/img-medium-logo__01@3x.png") 3x);
+  background-image: image-set(url("../img/img-medium-logo__01.png") 1x, url("../img/img-medium-logo__01@2x.png") 2x, url("../img/img-medium-logo__01@3x.png") 3x);
   width: 208px;
   height: 67px;
 }
 
 .img-medium__2 {
-  background-image: -webkit-image-set(url("/img/img-medium__02.png") 1x, url("/img/img-medium__02@2x.png") 2x, url("/img/img-medium__02@3x.png") 3x);
-  background-image: image-set(url("/img/img-medium__02.png") 1x, url("/img/img-medium__02@2x.png") 2x, url("/img/img-medium__02@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-medium__02.png") 1x, url("../img/img-medium__02@2x.png") 2x, url("../img/img-medium__02@3x.png") 3x);
+  background-image: image-set(url("../img/img-medium__02.png") 1x, url("../img/img-medium__02@2x.png") 2x, url("../img/img-medium__02@3x.png") 3x);
 }
 
 .img-small__1 {
-  background-image: -webkit-image-set(url("/img/img-small__01.png") 1x, url("/img/img-small__01@2x.png") 2x, url("/img/img-small__01@3x.png") 3x);
-  background-image: image-set(url("/img/img-small__01.png") 1x, url("/img/img-small__01@2x.png") 2x, url("/img/img-small__01@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-small__01.png") 1x, url("../img/img-small__01@2x.png") 2x, url("../img/img-small__01@3x.png") 3x);
+  background-image: image-set(url("../img/img-small__01.png") 1x, url("../img/img-small__01@2x.png") 2x, url("../img/img-small__01@3x.png") 3x);
 }
 
 .img-small__2 {
-  background-image: -webkit-image-set(url("/img/img-small__02.png") 1x, url("/img/img-small__02@2x.png") 2x, url("/img/img-small__02@3x.png") 3x);
-  background-image: image-set(url("/img/img-small__02.png") 1x, url("/img/img-small__02@2x.png") 2x, url("/img/img-small__02@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-small__02.png") 1x, url("../img/img-small__02@2x.png") 2x, url("../img/img-small__02@3x.png") 3x);
+  background-image: image-set(url("../img/img-small__02.png") 1x, url("../img/img-small__02@2x.png") 2x, url("../img/img-small__02@3x.png") 3x);
 }
 
 .img-small__3 {
-  background-image: -webkit-image-set(url("/img/img-small__03.png") 1x, url("/img/img-small__03@2x.png") 2x, url("/img/img-small__03@3x.png") 3x);
-  background-image: image-set(url("/img/img-small__03.png") 1x, url("/img/img-small__03@2x.png") 2x, url("/img/img-small__03@3x.png") 3x);
+  background-image: -webkit-image-set(url("../img/img-small__03.png") 1x, url("../img/img-small__03@2x.png") 2x, url("../img/img-small__03@3x.png") 3x);
+  background-image: image-set(url("../img/img-small__03.png") 1x, url("../img/img-small__03@2x.png") 2x, url("../img/img-small__03@3x.png") 3x);
 }
 
 /* Стилизация гридов */
