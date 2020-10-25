@@ -199,9 +199,11 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  /* WHY THE HECK  FIREFOX DO NOT SUPPORT IMAGE-SET??? */
 }
 
 .img-big__1 {
+  background-image: url("../img/img-big__01.png");
   background-image: -webkit-image-set(url("../img/img-big__01.png") 1x, url("../img/img-big__01@2x.png") 2x, url("../img/img-big__01@3x.png") 3x);
   background-image: image-set(url("../img/img-big__01.png") 1x, url("../img/img-big__01@2x.png") 2x, url("../img/img-big__01@3x.png") 3x);
 }
@@ -221,6 +223,7 @@ input {
 }
 
 .img-big__2 {
+  background-image: url("../img/img-big__02.png");
   background-image: -webkit-image-set(url("../img/img-big__02.png") 1x, url("../img/img-big__02@2x.png") 2x, url("../img/img-big__02@3x.png") 3x);
   background-image: image-set(url("../img/img-big__02.png") 1x, url("../img/img-big__02@2x.png") 2x, url("../img/img-big__02@3x.png") 3x);
 }
@@ -240,6 +243,7 @@ input {
 }
 
 .img-medium__1 {
+  background-image: url("../img/img-medium__01.png");
   background-image: -webkit-image-set(url("../img/img-medium__01.png") 1x, url("../img/img-medium__01@2x.png") 2x, url("../img/img-medium__01@3x.png") 3x);
   background-image: image-set(url("../img/img-medium__01.png") 1x, url("../img/img-medium__01@2x.png") 2x, url("../img/img-medium__01@3x.png") 3x);
 }
@@ -259,21 +263,25 @@ input {
 }
 
 .img-medium__2 {
+  background-image: url("../img/img-medium__02.png");
   background-image: -webkit-image-set(url("../img/img-medium__02.png") 1x, url("../img/img-medium__02@2x.png") 2x, url("../img/img-medium__02@3x.png") 3x);
   background-image: image-set(url("../img/img-medium__02.png") 1x, url("../img/img-medium__02@2x.png") 2x, url("../img/img-medium__02@3x.png") 3x);
 }
 
 .img-small__1 {
+  background-image: url("../img/img-small__01.png");
   background-image: -webkit-image-set(url("../img/img-small__01.png") 1x, url("../img/img-small__01@2x.png") 2x, url("../img/img-small__01@3x.png") 3x);
   background-image: image-set(url("../img/img-small__01.png") 1x, url("../img/img-small__01@2x.png") 2x, url("../img/img-small__01@3x.png") 3x);
 }
 
 .img-small__2 {
+  background-image: url("../img/img-small__02.png");
   background-image: -webkit-image-set(url("../img/img-small__02.png") 1x, url("../img/img-small__02@2x.png") 2x, url("../img/img-small__02@3x.png") 3x);
   background-image: image-set(url("../img/img-small__02.png") 1x, url("../img/img-small__02@2x.png") 2x, url("../img/img-small__02@3x.png") 3x);
 }
 
 .img-small__3 {
+  background-image: url("../img/img-small__03.png");
   background-image: -webkit-image-set(url("../img/img-small__03.png") 1x, url("../img/img-small__03@2x.png") 2x, url("../img/img-small__03@3x.png") 3x);
   background-image: image-set(url("../img/img-small__03.png") 1x, url("../img/img-small__03@2x.png") 2x, url("../img/img-small__03@3x.png") 3x);
 }

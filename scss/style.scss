@@ -83,8 +83,11 @@ $desktop: 1400px;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: 50% 50%;
+
+   /* WHY THE HECK  FIREFOX DO NOT SUPPORT IMAGE-SET??? */
    &-big {
       &__1 {
+         background-image: url("../img/img-big__01.png");
          background-image: image-set(
             url("../img/img-big__01.png") 1x,
             url("../img/img-big__01@2x.png") 2x,
@@ -102,6 +105,7 @@ $desktop: 1400px;
          }
       }
       &__2 {
+         background-image: url("../img/img-big__02.png");
          background-image: image-set(
             url("../img/img-big__02.png") 1x,
             url("../img/img-big__02@2x.png") 2x,
@@ -121,6 +125,7 @@ $desktop: 1400px;
    }
    &-medium {
       &__1 {
+         background-image: url("../img/img-medium__01.png");
          background-image: image-set(
             url("../img/img-medium__01.png") 1x,
             url("../img/img-medium__01@2x.png") 2x,
@@ -138,6 +143,7 @@ $desktop: 1400px;
          }
       }
       &__2 {
+         background-image: url("../img/img-medium__02.png");
          background-image: image-set(
             url("../img/img-medium__02.png") 1x,
             url("../img/img-medium__02@2x.png") 2x,
@@ -147,6 +153,7 @@ $desktop: 1400px;
    }
    &-small {
       &__1 {
+         background-image: url("../img/img-small__01.png");
          background-image: image-set(
             url("../img/img-small__01.png") 1x,
             url("../img/img-small__01@2x.png") 2x,
@@ -154,6 +161,7 @@ $desktop: 1400px;
          );
       }
       &__2 {
+         background-image: url("../img/img-small__02.png");
          background-image: image-set(
             url("../img/img-small__02.png") 1x,
             url("../img/img-small__02@2x.png") 2x,
@@ -161,6 +169,7 @@ $desktop: 1400px;
          );
       }
       &__3 {
+         background-image: url("../img/img-small__03.png");
          background-image: image-set(
             url("../img/img-small__03.png") 1x,
             url("../img/img-small__03@2x.png") 2x,
