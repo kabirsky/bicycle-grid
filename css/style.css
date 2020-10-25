@@ -293,8 +293,6 @@ input {
 .grid {
   display: -ms-grid;
   display: grid;
-  -webkit-transition: ease all 0.5s;
-  transition: ease all 0.5s;
 }
 
 @media (max-width: 940px) {
@@ -365,4 +363,10 @@ input {
 
 .grid .img-small__3 {
   grid-area: img-small__3;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
