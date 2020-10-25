@@ -108,6 +108,52 @@ input {
   border-radius: 0;
 }
 
+.header {
+  min-height: 800px;
+  transition: min-height 1.5s ease-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-image: url("../img/header.png");
+  background-image: image-set(url("../img/header.png") 1x, url("../img/header@2x.png") 2x, url("../img/header@3x.png") 3x);
+}
+@media (max-width: 940px) {
+  .header {
+    min-height: 400px;
+  }
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+  padding-top: 32px;
+}
+.header .nav .link {
+  position: relative;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0);
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2.6px;
+  text-align: left;
+  color: #4d4959;
+  white-space: nowrap;
+}
+.header .nav .link:hover {
+  border-bottom: 2px solid #4d4959;
+  margin-bottom: -2px;
+}
+.header .nav .dot {
+  font-size: 28px;
+  transform: translate(0, -10%);
+}
+.header .nav .nav-logo {
+  cursor: pointer;
+}
+
 /* Стилизация элементов гридов */
 .info-img {
   display: block;
@@ -308,6 +354,8 @@ input {
 
 .link {
   text-decoration: none;
-  color: white;
+  background-color: white;
+  padding: 0;
+  border: 0;
   cursor: pointer;
 }

@@ -1,1 +1,55 @@
 @import "utilities/_variables";
+
+.header {
+   @media (max-width: $mobile) {
+      min-height: 400px;
+   }
+   min-height: 800px;
+   transition: min-height 1.5s ease-out;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-image: url("../img/header.png");
+   background-image: image-set(
+      url("../img/header.png") 1x,
+      url("../img/header@2x.png") 2x,
+      url("../img/header@3x.png") 3x
+   );
+
+   .nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      justify-content: center;
+      padding-top: 32px;
+
+      .link {
+         position: relative;
+         padding: 1em;
+         background: rgba(255, 255, 255, 0);
+         text-transform: uppercase;
+         font-family: Lato;
+         font-size: 13px;
+         font-weight: bold;
+         letter-spacing: 2.6px;
+         text-align: left;
+         color: $nav-text;
+
+         white-space: nowrap;
+
+         &:hover {
+            border-bottom: 2px solid $nav-text;
+            margin-bottom: -2px;
+         }
+      }
+
+      .dot {
+         font-size: 28px;
+         transform: translate(0, -10%);
+      }
+
+      .nav-logo {
+         cursor: pointer;
+      }
+   }
+}
