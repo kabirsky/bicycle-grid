@@ -1,10 +1,8 @@
 @import "utilities/_variables";
 
 .header {
-   @media (max-width: $mobile) {
-      min-height: 400px;
-   }
-   min-height: 800px;
+   min-height: 450px;
+   height: 100vh;
    transition: min-height 1.5s ease-out;
    background-size: cover;
    background-repeat: no-repeat;
@@ -50,6 +48,18 @@
 
       .nav-logo {
          cursor: pointer;
+      }
+   }
+   @media (max-width: $mobile) {
+      //Надо подумать шо с дизайном тут мутить и мутить ли
+      min-height: 0;
+      height: auto;
+      background: #f7f7f7;
+      .nav {
+         gap: 1vw;
+      }
+      .dot {
+         display: none;
       }
    }
 }

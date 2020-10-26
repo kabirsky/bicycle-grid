@@ -109,18 +109,14 @@ input {
 }
 
 .header {
-  min-height: 800px;
+  min-height: 450px;
+  height: 100vh;
   transition: min-height 1.5s ease-out;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-image: url("../img/header.png");
   background-image: image-set(url("../img/header.png") 1x, url("../img/header@2x.png") 2x, url("../img/header@3x.png") 3x);
-}
-@media (max-width: 940px) {
-  .header {
-    min-height: 400px;
-  }
 }
 .header .nav {
   display: flex;
@@ -152,6 +148,19 @@ input {
 }
 .header .nav .nav-logo {
   cursor: pointer;
+}
+@media (max-width: 940px) {
+  .header {
+    min-height: 0;
+    height: auto;
+    background: #f7f7f7;
+  }
+  .header .nav {
+    gap: 1vw;
+  }
+  .header .dot {
+    display: none;
+  }
 }
 
 /* Стилизация элементов гридов */
