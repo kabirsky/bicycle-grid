@@ -1,6 +1,7 @@
 @import "utilities/_variables";
 
 .header {
+   display: none;
    min-height: 450px;
    height: 100vh;
    transition: min-height 1.5s ease-out;
